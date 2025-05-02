@@ -1,0 +1,69 @@
+a
+
+
+Git and GitHub: 
+
+Below are the methods for cloning remote repository.  
+
+Clone - cloning a repository on our local machine.
+git clone <-link->
+
+check .git for GitHub file to see this u have to use command (ls -a) 
+
+status - Displays the state of the code. 
+git status ke chaar type hai 
+1. Untracked
+2. Modified
+3. Staged
+4. Unmodified
+
+untracked -> file means wo file jisko git track nahi kar raha hai abhi 
+Modified -> File mein changes hue hai 
+Staged -> File commit ke liye ready hai 
+Unmodified -> file mein koi bhi changes nahi hue hai 
+
+
+Below are the methods for commiting and pushing local repository. 
+commiting steps. 
+
+kisi bhi file ko modify karne ke baad humay two step process karna padta hai 
+
+ADD - Adds new or changed files in working directory
+ADD - For single file git add <-file name-> or For all file (git add .)
+ 
+Now commit 
+command git commit -m "some message"
+
+aray yaar abhi bhi GitHub pe code nahi dikh raha hai
+uske liye code ko commit ke saath push bhi karna hota hai 
+
+Final steps. 
+so Now,
+
+         git push origin main. for push code to the GitHub:)
+
+so now we wil create local to remote repository means hamesha ki Tarah local machine pey repo banayege lekin lekin banana ke baad usay GitHub se integrate kr dege. 
+
+step 1 -->  git init -> is a command used to make localrepo to remoterepo.
+
+step2 -->  git remote add origin <-link->
+
+step3 --> git remote -v to verify the remote.
+
+step4 --> git branch command used to check the branch.
+
+step5 --> git branch -M main is used to rename a branch. 
+
+Final step --> git push origin main.
+
+
+Itna seekh lene se bhi lagbahg personal projects ke liye kaam chal sakta hai halaki branches ke baaare mein jaanna accha hoga but this is the least u should know.
+
+
+
+
+
+
+
+
+

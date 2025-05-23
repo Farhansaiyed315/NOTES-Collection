@@ -1,5 +1,3 @@
-a
-
 
 Git and GitHub: 
 
@@ -59,9 +57,29 @@ Final step --> git push origin main.
 
 Itna seekh lene se bhi lagbahg personal projects ke liye kaam chal sakta hai halaki branches ke baaare mein jaanna accha hoga but this is the least u should know.
 
+----------------------------------------------------------------------------------------------------------..........................................................................................................==========================================================================================================
 
+                                GIT BRANCHES
 
+Git branches are like a copy of your code where you can experiment, add features, fix bugs, etc., without touching the main version.
 
+ Why Use Branches?
+
+Work on new features without breaking the main app.
+Try bug fixes safely.
+
+ Multiple people can work on the same project at the same time.
+
+ Once everything works fine, you can merge your branch back into the main branch.
+
+  🛠️✅ Command                                  	💬 What It Does
+
+git branch ------------------------	Show all branches and also highlights which branch you're currently in
+git branch <branch-name> ----------	Create a new branch
+git checkout <branch-name> --------	Switch to an existing branch
+git checkout -b <new-branch-name> -	Create and switch to a new branch (shortcut)
+git merge <branch-name> -----------	Merge the given branch into the current branch
+git branch -d <branch-name> -------	Delete the specified branch
 
 
 

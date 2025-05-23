@@ -57,6 +57,18 @@ Final step --> git push origin main.
 
 Itna seekh lene se bhi lagbahg personal projects ke liye kaam chal sakta hai halaki branches ke baaare mein jaanna accha hoga but this is the least u should know.
 
+UNDOING CHANGES. 
+
+git reset <file ka naam jisko undo karna hai ---- note sirf added files ke liye hai commited ke liye nahi 
+git reset <pura repo reset hoga ----------------- note sirf added files ke liye hai commited ke liye nahi 
+git reset HEAD~1 -------------------------------- note sirf cmmited files ke liye ha added ke liye nahi 
+git log ----------------------------------------- note apne sare commits ko check kr sakte hai. 
+git reset hash ---------------------------------- note multiple commits or kisi certain commits par jana or undo karna bhi bol sakte hai 
+git reset --hard -------------------------------- note after doing this sirf git hi nahi ide se bhi commits ke codes undo ho jayege. 
+
+
+
+ 
 ----------------------------------------------------------------------------------------------------------..........................................................................................................==========================================================================================================
 
                                 GIT BRANCHES
@@ -81,7 +93,28 @@ git checkout -b <new-branch-name> -	Create and switch to a new branch (shortcut)
 git merge <branch-name> -----------	Merge the given branch into the current branch
 git branch -d <branch-name> -------	Delete the specified branch
 
+Merge branches.
 
+git diff <jis branch ko compare karna hai uska naam> ---- will compare two branches. 
+git merge <jis branch ko merge akrna hai uska naam> ----- merge two branches. 
+
+PULL REQUESTS OR PR. 
+better to manage on github itself. 
+
+git pull origin branch name --------------------------pulls remote changes to local. 
+..........................................................................................................
+
+ Merge Conflict?
+ A merge conflict happens when two branches change the same part of a file, and Git doesn’t know which change to keep.
+
+ RESOLVING MERGE CONFLICT..........
+
+ incoming change - jo pahle se hi hai 
+ current cahnge - jo abhi change kiye hai 
+
+FORJK UNDERSTANDING. 
+
+fork is just a rough copy of a project or repo.
 
 
 

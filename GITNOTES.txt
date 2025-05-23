@@ -116,5 +116,9 @@ FORJK UNDERSTANDING.
 
 fork is just a rough copy of a project or repo.
 
+| 🔧 Term                      | What it Does                                                 |
+| -----------------------------| ------------------------------------------------------------- |
+|   Fork                       | Copies repo from   someone else’s GitHub  →   your GitHub     |
+|  C lone                      | Copies repo from   GitHub   →   your local machine (laptop)   |
 
 

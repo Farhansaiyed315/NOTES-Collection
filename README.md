@@ -1,32 +1,22 @@
-  Git & GitHub Commands Guide 🧠💻
+# 📒 Farhan's Developer Notes
 
-This repository contains a beginner-friendly guide to using 
-Gitand GitHub with essential commands and their explanations.
-Whether you're a student, self-learner, or just getting started with version control,
-this note will help you understand the basics of working with Git locally and pushing your projects to GitHub.
+Welcome to my personal notes repository! 🚀  
+Here you'll find well-organized, easy-to-understand notes on **JavaScript**, **Linux**, **GitHub**, and more developer tools and technologies.
 
+---
 
+## 📚 Topics Covered
 
-## 📦 Topics Covered
-
-- 🔧 Initializing Git in your project
-- 📝 Adding and committing changes
-- 🌐 Connecting to a GitHub repository
-- 📤 Pushing code to GitHub
-- 📥 Cloning repositories
-- 🔄 Pulling updates
-- 🧪 Checking status and logs
-- ❌ Removing and resetting files
-- 🧠 Common issues and solutions
+| Subject  | Description                                                  |
+|----------|--------------------------------------------------------------|
+| 🔧 GitHub | Well-organized Git & GitHub notes with commands and usage.  |
+| 🐧 Linux  | Clean, structured notes for Linux beginners to advanced.     |
+|jAVASCRIPT |  Well structured notes to complete javascript in 30 days     | 
 
 
 
-   🛠️ Common Git Commands
 
- ```bash
-git init             # Initialize a new Git repository
-git status           # Check the status of changes
-git add .            # Add all files to staging area
-git commit -m "msg"  # Commit changes with a message
-git remote add origin <url>  # Link to GitHub repo
-git push -u origin main      # Push to main branch
+You can also **clone** it directly using:
+
+```bash
+git clone https://github.com/Farhansaiyed315/NOTES-Collection.git

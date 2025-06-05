@@ -122,3 +122,25 @@ fork is just a rough copy of a project or repo.
 |  C lone                      | Copies repo from   GitHub   →   your local machine (laptop)   |
 
 
+Specific commit pick kr sakte hai iss commando se.
+
+below is the method of cloning specific commit
+ Run this comands. 
+ 
+ '''mkdir my-project
+cd my-project
+git init''''
+
+git remote add other https://github.com/gitusername/repositoryname.git
+
+git fetch other
+
+
+git cherry-pick commit id 
+
+
+
+
+
+
+

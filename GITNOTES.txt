@@ -137,10 +137,3 @@ git fetch other
 
 
 git cherry-pick commit id 
-
-
-
-
-
-
-

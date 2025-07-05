@@ -65,6 +65,7 @@ git reset HEAD~1 -------------------------------- note sirf cmmited files ke liy
 git log ----------------------------------------- note apne sare commits ko check kr sakte hai. 
 git reset hash ---------------------------------- note multiple commits or kisi certain commits par jana or undo karna bhi bol sakte hai 
 git reset --hard -------------------------------- note after doing this sirf git hi nahi ide se bhi commits ke codes undo ho jayege. 
+git commit --amend -m "Your new commit message"--- note used to privide new commit message before pushing if u accidentely provided wrong commit message. 
 
 
 
